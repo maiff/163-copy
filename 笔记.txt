@@ -1,0 +1,16 @@
+在使用float时，想同层次的元素都必须有想同的float才能在同一行
+
+边框的样式可以通过重复设定来得到更多的样式
+li :first-child
+CSS Sprites(logo中的运用)
+
+浮动与
+white-space: nowrap;（因为文字太粗放不下）
+的运用
+
+
+A>B 表示选择A元素的所有子B元素。
+与A B的区别在于，A B选择所有后代元素，而A>B只选择一代。
+另外：没有<的用法。
+
+A+B表示HTML中紧随A的B元素。

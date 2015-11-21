@@ -1,0 +1,168 @@
+@charset "utf-8";
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+body{
+	font:12px/1.5 宋体,Arial,sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+.nav-container{
+	width: 100%;
+	height: 43px;
+	background: #333333;
+	border-bottom:2px solid #606060
+	line-height:42px;
+	position: fixed;
+	top: 0;
+
+}
+.nav{
+	width: 960px;
+	margin: 0 auto;
+	background: #333333;
+	color: #fff;
+}
+.n-1{
+	float: left;
+	line-height:42px;
+}
+.application{
+	height: 100%;
+
+}
+.application>a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding:0 30px 0 13px
+
+}
+.setHome{
+	height: 100%;
+}
+
+.setHome>a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0 17px;
+}
+
+.block-hover:hover{
+	background:#000;
+}
+.line-hover:hover{
+	text-decoration: underline;
+}
+.right{
+	float: right;
+	line-height: 42px;
+}
+.user>a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 0 15px;
+
+
+}
+.loginout>a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0 17px;
+}
+
+.l-left{
+	float: left;
+}
+
+.list{
+	line-height: 42px;
+	float: left;
+}
+.u-list{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.u-list>li{
+	
+	float: left;
+	line-height: 42px;
+	border-left: 1px solid #3f3f3f;
+	border-right: 1px solid #1f1f1f;
+}
+.u-list>li:first-child{
+	border-left: 1px solid #1f1f1f;
+}
+
+
+.u-list>li>a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 0 10px;
+}
+.head{
+	width: 960px;
+	margin: 43px auto;
+	margin-bottom:20px; 
+}
+
+.logo{
+	float: left;
+	height: 38px;
+	margin-top: 37px;
+	overflow: hidden;
+	width: 122px;
+	background: url("http://img1.cache.netease.com/f2e/www/index2014/images/bg_sprites_v16.png");
+}
+.block-nav{
+	border-top: 4px solid #206f96;
+	height: 91px;
+	overflow: hidden;
+	width: 960px;
+}
+.a-hover a:hover{
+	text-decoration: underline;
+
+}
+.w155{
+	width: 155px;
+}
+.a{
+	float: left;
+}
+.divid{
+	border-right: 1px dashed #dcdddd;
+	margin-right: 18px;
+	padding-right: 18px;
+}
+.block-nav strong a{
+	margin-left: 0;
+}
+.block-nav a{
+	margin-left: 18px;
+	float: left;
+	white-space: nowrap;
+	width: 25px;
+	color: #252525;
+	text-decoration: none;
+	line-height: 22px;
+}
+
+.w160{
+	width: 155px;
+}
+.divid-o{
+	
+	margin-right: 18px;
+	padding-right: 18px;
+}
